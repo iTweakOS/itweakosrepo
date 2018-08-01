@@ -54,3 +54,17 @@ Section: Tweaks
 Description: Adds Cool Animations To Your Icons!
 Author: iTweakOS Team <ihackz9v@gmail.com>
 Name: Cylinder
+
+Package: com.itweakos.mint3
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Casp <ihackz9v@gmail.com>
+Filename: /mint3.deb
+Size: 2951606
+MD5sum: 8c5d09522cc33e6c224db7d7d205ea02
+SHA1: 036de380c160acf3f919dd4bab1bc6762949bfa6
+SHA256: 6cff03dec055057c44c0a0185eed8cfd5e495e47c646cfa7f9e4c356b192a4af
+Section: Themes
+Description: My Personal Favorite Theme!
+Author: iTweakOS Team <ihackz9v@gmail.com>
+Name: Mint 3
