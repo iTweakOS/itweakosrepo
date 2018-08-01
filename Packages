@@ -1,0 +1,13 @@
+Package: com.itweakos.xxxtentacionrespringlogo
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Casp <ihackz9v@gmail.com>
+Filename: /XXXtentacionRespringLogo.deb
+Size: 6896
+MD5sum: 73e647d85623451c5d4407c49f5d3ea6
+SHA1: cdaa31f9bfcbda90acf005dcd1752dc51854b8f8
+SHA256: 1e92a844822a9162c4a7035327f7a6fe3767d98ee5d79de79b2e31ca49e01ede
+Section: Themes
+Description: Custom Respring Logo For iOS 11 - 11.3.1
+Author: iTweakOS Team <ihackz9v@gmail.com>
+Name: XXXTentacionRespringLogoTheme
