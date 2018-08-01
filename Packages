@@ -67,4 +67,18 @@ SHA256: 6cff03dec055057c44c0a0185eed8cfd5e495e47c646cfa7f9e4c356b192a4af
 Section: Themes
 Description: My Personal Favorite Theme!
 Author: iTweakOS Team <ihackz9v@gmail.com>
-Name: Mint 3
+Name: Mint3
+
+Package: com.itweakos.noctisxi
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Casp <ihackz9v@gmail.com>
+Filename: /NoctisXI.deb
+Size: 88108
+MD5sum: 5357c4573d5f9eadcfa20a0ae41afac7
+SHA1: bba2727f80c65b0d1ba933b32763cb9111214e28
+SHA256: a1227b9bf6abdbb1a5f4d2af97a330033245e9c8719705fdf2605ce2a2f46e82
+Section: Tweaks
+Description: Semi Darkmode!
+Author: iTweakOS Team <ihackz9v@gmail.com>
+Name: NoctisXI
