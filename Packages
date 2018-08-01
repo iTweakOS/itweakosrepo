@@ -26,3 +26,17 @@ Section: Tools
 Description: Run commands with your ios device!
 Author: iTweakOS Team <ihackz9v@gmail.com>
 Name: MobileTerminal
+
+Package: com.itweakos.appsyncunified
+Version: 31.1
+Architecture: iphoneos-arm
+Maintainer: Casp <ihackz9v@gmail.com>
+Filename: /MobileTerminal.deb
+Size: 30362
+MD5sum: 3d066c0024bacf35a705da8907a11e1a
+SHA1: dd4db5547cd50ba8768baf48ec778f21687a67e0
+SHA256: 7582f3123cbcd846e6bc615db8b05251bd02b85be43ef1d27e0607ad590ac4fc
+Section: Tweaks
+Description: Install Any Unsigned/Signed iPA without Revokes!
+Author: iTweakOS Team <ihackz9v@gmail.com>
+Name: AppSync Unified
