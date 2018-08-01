@@ -40,3 +40,17 @@ Section: Tweaks
 Description: Install Any Unsigned/Signed iPA without Revokes!
 Author: iTweakOS Team <ihackz9v@gmail.com>
 Name: AppSync Unified
+
+Package: com.itweakos.cylinder
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: Casp <ihackz9v@gmail.com>
+Filename: /cylinder.deb
+Size: 255488
+MD5sum: 1c0eebe91f6e03faea96218dadf8f4cc
+SHA1: 8ee421d677df4ebf70b1f39f58e3ff9d3b831e1a
+SHA256: 4294d05662d81b24bae3625c4962ec6cfd85678f4066c4b580b151b555c8615f
+Section: Tweaks
+Description: Adds Cool Animations To Your Icons!
+Author: iTweakOS Team <ihackz9v@gmail.com>
+Name: Cylinder
