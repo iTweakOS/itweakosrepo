@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>General</string>
+		</dict>
+
+		<dict>
+				 <key>cell</key>
+				 <string>PSLinkListCell</string>
+				 <key>defaults</key>
+				 <string>com.fpt.pokecallprefs</string>
+				 <key>detail</key>
+				 <string>PSListItemsController</string>
+				 <key>key</key>
+				 <string>supportedCalls</string>
+				 <key>label</key>
+				 <string>Enabled for</string>
+				 <key>validTitles</key>
+				 <array>
+						 <string>All calls</string>
+						 <string>Only contacts</string>
+						 <string>Only customised contacts</string>
+						 <string>Only unknown numbers</string>
+				 </array>
+				 <key>validValues</key>
+				 <array>
+						 <string>0</string>
+						 <string>1</string>
+						 <string>2</string>
+						 <string>3</string>
+				 </array>
+		 </dict>
+
+		 <dict>
+			 <key>cell</key>
+			 <string>PSSwitchCell</string>
+			 <key>cellClass</key>         <string>PCSwitchTableCell</string>
+			 <key>default</key>
+			 <true/>
+			 <key>defaults</key>
+			 <string>com.fpt.pokecallprefs</string>
+			 <key>key</key>
+			 <string>videoEnabled</string>
+			 <key>label</key>
+			 <string>Include video calls</string>
+						 <key>PostNotification</key>
+						 <string>com.fpt.pokecall/prefsChanged</string>
+		 </dict>
+
+		 <dict>
+			 <key>cell</key>
+			 <string>PSSwitchCell</string>
+			 <key>cellClass</key>         <string>PCSwitchTableCell</string>
+			 <key>default</key>
+			 <false/>
+			 <key>defaults</key>
+			 <string>com.fpt.pokecallprefs</string>
+			 <key>key</key>
+			 <string>startSmall</string>
+			 <key>label</key>
+			 <string>Start minimised</string>
+				<key>PostNotification</key>
+				 <string>com.fpt.pokecall/prefsChanged</string>
+		 </dict>
+
+		 <dict>
+			 <key>cell</key>
+			 <string>PSSwitchCell</string>
+			 <key>cellClass</key>         <string>PCSwitchTableCell</string>
+			 <key>default</key>
+			 <false/>
+			 <key>defaults</key>
+			 <string>com.fpt.pokecallprefs</string>
+			 <key>key</key>
+			 <string>startSmallIfLocked</string>
+			 <key>label</key>
+			 <string>Start minimised if locked</string>
+				<key>PostNotification</key>
+				 <string>com.fpt.pokecall/prefsChanged</string>
+		 </dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Appearance</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>         <string>PCSwitchTableCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.fpt.pokecallprefs</string>
+			<key>key</key>
+			<string>callerIDEnabled</string>
+			<key>label</key>
+			<string>Show caller ID at top</string>
+						<key>PostNotification</key>
+						<string>com.fpt.pokecall/prefsChanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>         <string>PCSwitchTableCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.fpt.pokecallprefs</string>
+			<key>key</key>
+			<string>introOption</string>
+			<key>label</key>
+			<string>Intro flash</string>
+						<key>PostNotification</key>
+						<string>com.fpt.pokecall/prefsChanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>         <string>PCSwitchTableCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.fpt.pokecallprefs</string>
+			<key>key</key>
+			<string>swapButtons</string>
+			<key>label</key>
+			<string>Swap FIGHT and RUN buttons</string>
+						<key>PostNotification</key>
+						<string>com.fpt.pokecall/prefsChanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Battle style for</string>
+		</dict>
+
+       <dict>
+            <key>cell</key>
+            <string>PSLinkListCell</string>
+            <key>defaults</key>
+            <string>com.fpt.pokecallprefs</string>
+            <key>detail</key>
+            <string>PSListItemsController</string>
+            <key>key</key>
+            <string>battleContact</string>
+            <key>label</key>
+            <string>Contacts</string>
+            <key>validTitles</key>
+            <array>
+                <string>Trainer battle</string>
+                <string>Wild Pokémon</string>
+            </array>
+            <key>validValues</key>
+            <array>
+                <string>0</string>
+                <string>1</string>
+            </array>
+        </dict>
+
+       <dict>
+            <key>cell</key>
+            <string>PSLinkListCell</string>
+            <key>defaults</key>
+            <string>com.fpt.pokecallprefs</string>
+            <key>detail</key>
+            <string>PSListItemsController</string>
+            <key>key</key>
+            <string>battleUnknown</string>
+            <key>label</key>
+            <string>Unknown numbers</string>
+            <key>validTitles</key>
+            <array>
+                <string>Trainer battle</string>
+                <string>Wild Pokémon</string>
+            </array>
+            <key>validValues</key>
+            <array>
+                <string>0</string>
+                <string>1</string>
+            </array>
+        </dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Music</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>         <string>PCSwitchTableCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.fpt.pokecallprefs</string>
+			<key>key</key>
+			<string>musicEnabled</string>
+			<key>label</key>
+			<string>Override ringtone</string>
+						<key>PostNotification</key>
+						<string>com.fpt.pokecall/prefsChanged</string>
+		</dict>
+
+       <dict>
+            <key>cell</key>
+            <string>PSLinkListCell</string>
+            <key>defaults</key>
+            <string>com.fpt.pokecallprefs</string>
+            <key>detail</key>
+            <string>PSListItemsController</string>
+            <key>key</key>
+            <string>musicOption</string>
+            <key>label</key>
+            <string>Music Theme</string>
+            <key>validTitles</key>
+            <array>
+                <string>Trainer battle</string>
+							  <string>Gym battle</string>
+							  <string>Champion battle</string>
+                <string>Wild Pokémon encounter</string>
+            </array>
+            <key>validValues</key>
+            <array>
+                <string>1</string>
+                <string>2</string>
+                <string>3</string>
+                <string>4</string>
+            </array>
+        </dict>
+
+				<dict>
+					<key>cell</key>
+					<string>PSSwitchCell</string>
+					<key>cellClass</key>         <string>PCSwitchTableCell</string>
+					<key>default</key>
+					<true/>
+					<key>defaults</key>
+					<string>com.fpt.pokecallprefs</string>
+					<key>key</key>
+					<string>soundEffectsEnabled</string>
+					<key>label</key>
+					<string>Sound effects</string>
+								<key>PostNotification</key>
+								<string>com.fpt.pokecall/prefsChanged</string>
+				</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Call settings</string>
+</dict>
+</plist>

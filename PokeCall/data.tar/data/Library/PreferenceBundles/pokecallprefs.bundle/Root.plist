@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+
+		<dict>
+					<key>cell</key>
+					<string>PSGroupCell</string>
+					<key>headerCellClass</key>
+					<string>headerCell</string>
+				</dict> 
+
+		<dict>
+					<key>cell</key>
+					<string>PSGroupCell</string>
+					<key>headerCellClass</key>
+					<string>trainerCell</string>
+				</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>         <string>PCSwitchTableCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.fpt.pokecallprefs</string>
+			<key>key</key>
+			<string>pokecallEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+						<key>PostNotification</key>
+						<string>com.fpt.pokecall/prefsChanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+		</dict>
+
+		<dict>
+					<key>cell</key>                  <string>PSLinkCell</string>
+					<key>label</key>                <string>Trainer options</string>
+					<key>detail</key>               <string>customiseTrainerController</string>
+		</dict>
+
+		<dict>
+					<key>cell</key>                  <string>PSLinkCell</string>
+					<key>label</key>                <string>Your Pokémon</string>
+					<key>detail</key>               <string>customisePokemonController</string>
+		</dict>
+
+		<dict>
+					<key>cell</key>                  <string>PSLinkCell</string>
+					<key>label</key>                <string>Customise contacts</string>
+					<key>detail</key>               <string>customiseContactsController</string>
+		</dict>
+
+		<dict>
+					<key>cell</key>                  <string>PSLinkCell</string>
+					<key>label</key>                <string>Call settings</string>
+					<key>detail</key>               <string>customiseCallController</string>
+		</dict>
+
+<dict>
+			<key>cell</key>             <string>PSGroupCell</string>
+			<key>label</key>            <string>Contact</string>
+			<key>footerText</key> <string></string>
+	</dict>
+
+	<dict>
+		<key>action</key>             	<string>reddit</string>
+		<key>icon</key>               	<string>fp.png</string>
+		<key>cell</key>                 <string>PSButtonCell</string>
+			<key>cellClass</key>         <string>PCButtonCell</string>
+		<key>label</key>              	<string>Frozen Penguin (Reddit)</string>
+	</dict>
+
+	<dict>
+		<key>action</key>             	<string>sendEmail</string>
+		<key>icon</key>               	<string>mail.png</string>
+		<key>cell</key>                 <string>PSButtonCell</string>
+			<key>cellClass</key>         <string>PCButtonCell</string>
+		<key>label</key>              	<string>Email</string>
+	</dict>
+
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>

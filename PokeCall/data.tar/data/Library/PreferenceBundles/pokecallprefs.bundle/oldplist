@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+			<key>cell</key>             <string>PSGroupCell</string>
+			<key>label</key>            <string>Hide items</string>
+		</dict>
+
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>         <string>PMSwitchTableCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.fpt.photomanagerprefs</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Hide</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+		</dict>
+
+		<dict>
+					<key>cell</key>                  <string>PSLinkCell</string>
+					<key>label</key>                <string>Appearance</string>
+					<key>detail</key>               <string>appearanceController</string>
+		</dict>
+
+		<dict>
+					<key>cell</key>                  <string>PSLinkCell</string>
+					<key>label</key>                <string>Behaviour</string>
+					<key>detail</key>               <string>behaviourController</string>
+		</dict>
+
+		<dict>
+					<key>cell</key>                  <string>PSLinkCell</string>
+					<key>label</key>                <string>Included albums</string>
+					<key>detail</key>               <string>albumsController</string>
+		</dict>
+
+<dict>
+			<key>cell</key>         <string>PSSegmentCell</string>
+			<key>defaults</key>     <string>com.fpt.photomangerprefs</string>
+			<key>id</key>           <string>swipeOption</string>
+			<key>key</key>          <string>swipeOption</string>
+			<key>label</key>        <string>Swipe behaviour:</string>
+			<key>PostNotification</key>  <string>com.fpt.photomanager/reloadPrefs</string>
+			<key>validTitles</key> <array>
+					<string>Front camera</string>
+					<string>Custom image</string>
+                                <string>Disable</string>
+			</array>
+			<key>validValues</key> <array>
+					<integer>0</integer>
+					<integer>1</integer>
+                                <integer>2</integer>
+			</array>
+	</dict>
+
+
+	<dict>
+		<key>action</key>             	<string>pickImage</string>
+		<key>icon</key>               	<string>image.png</string>
+		<key>cell</key>                 <string>PSButtonCell</string>
+			<key>cellClass</key>         <string>PMButtonCell</string>
+		<key>label</key>              	<string>Pick custom image</string>
+	</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Security options</string>
+<key>footerText</key><string>To prevent leaving the app, the notification and control centres will also be disabled.</string>
+		</dict>
+
+<dict>
+			<key>cell</key>         <string>PSSegmentCell</string>
+			<key>defaults</key>     <string>com.fpt.photomanagerprefs</string>
+			<key>id</key>           <string>passOption</string>
+			<key>key</key>          <string>passOption</string>
+			<key>label</key>        <string>Choose image on swipe:</string>
+			<key>PostNotification</key>  <string>com.fpt.photomanager/reloadPrefs</string>
+			<key>validTitles</key> <array>
+					<string>TouchID</string>
+					<string>Password</string>
+					<string>None</string>
+			</array>
+			<key>validValues</key> <array>
+					<integer>0</integer>
+					<integer>1</integer>
+          <integer>2</integer>
+			</array>
+	</dict>
+
+<dict>
+	<key>cell</key>                 <string>PSButtonCell</string>
+			<key>cellClass</key>         <string>PMButtonCell</string>
+			 <key>label</key>           <string>Set Password</string>
+	<key>action</key>           <string>setPassword</string>
+</dict>
+
+<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>         <string>PMSwitchTableCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.fpt.photomanagerprefs</string>
+			<key>key</key>
+			<string>preventClose</string>
+			<key>label</key>
+			<string>Prevent app closing*</string>
+</dict>
+
+<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>         <string>PMSwitchTableCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.fpt.photomanagerprefs</string>
+			<key>key</key>
+			<string>preventHome</string>
+			<key>label</key>
+			<string>Prevent leaving app*</string>
+</dict>
+
+<dict>
+	<key>cell</key>
+	<string>PSGroupCell</string>
+	<key>label</key>
+	<string>Activation method</string>
+</dict>
+
+
+<dict>
+	<key>cell</key>
+	<string>PSLinkCell</string>
+	<key>label</key>
+	<string>Activation Methods</string>
+	<key>isController</key>
+	<true/>
+	<key>bundle</key>
+	<string>LibActivator</string>
+	<key>activatorListener</key>
+	<string>com.fpt.photomanager</string>
+</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Appearance</string>
+<key>footerText</key><string>*Respring required to apply changes.</string>
+		</dict>
+
+<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>         <string>PMSwitchTableCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.fpt.photomanagerprefs</string>
+			<key>key</key>
+			<string>showButton</string>
+			<key>label</key>
+			<string>Show lock button*</string>
+</dict>
+
+<dict>
+     <key>cell</key>                   <string>PSEditTextCell</string>
+		 <key>id</key>                     <string>customTitle</string>
+		 <key>key</key>                    <string>customTitle</string>
+		 <key>label</key>                  <string>Custom title:</string>
+     <key>placeholder</key>            <string>You</string>
+		 <key>defaults</key> 	             <string>com.fpt.photomanagerprefs</string>
+		 <key>PostNotification</key>       <string>com.fpt.photomanagerprefs/reloadPrefs</string>
+</dict>
+
+<dict>
+			<key>cell</key>             <string>PSGroupCell</string>
+			<key>label</key>            <string>Misc</string>
+			<key>footerText</key> <string></string>
+	</dict>
+
+<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>         <string>PMSwitchTableCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.fpt.photomanagerprefs</string>
+			<key>key</key>
+			<string>keepPhotos</string>
+			<key>label</key>
+			<string>Save selfies to camera</string>
+</dict>
+
+<dict>
+     <key>cell</key>                   <string>PSEditTextCell</string>
+		 <key>id</key>                     <string>keepNumber</string>
+		 <key>key</key>                    <string>keepNumber</string>
+		 <key>label</key>                  <string>Limit photos to:</string>
+     <key>placeholder</key>            <string>3</string>
+		 <key>defaults</key> 	             <string>com.fpt.photomanagerprefs</string>
+		 <key>PostNotification</key>       <string>com.fpt.photomanagerprefs/reloadPrefs</string>
+</dict>
+
+<dict>
+			<key>cell</key>             <string>PSGroupCell</string>
+			<key>label</key>            <string>Support</string>
+			<key>footerText</key> <string></string>
+	</dict>
+
+
+
+	<dict>
+		<key>action</key>             	<string>sendEmail</string>
+		<key>icon</key>               	<string>mail.png</string>
+		<key>cell</key>                 <string>PSButtonCell</string>
+			<key>cellClass</key>         <string>PMButtonCell</string>
+		<key>label</key>              	<string>Email</string>
+	</dict>
+
+	<dict>
+		<key>action</key>             	<string>reddit</string>
+		<key>icon</key>               	<string>reddit.png</string>
+		<key>cell</key>                 <string>PSButtonCell</string>
+			<key>cellClass</key>         <string>PMButtonCell</string>
+		<key>label</key>              	<string>Reddit</string>
+	</dict>
+
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>

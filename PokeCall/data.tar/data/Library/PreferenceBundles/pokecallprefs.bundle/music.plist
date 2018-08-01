@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+	<dict>
+		<key>action</key>             	<string>reddit</string>
+		<key>icon</key>               	<string>fp.png</string>
+		<key>cell</key>                 <string>PSButtonCell</string>
+			<key>cellClass</key>         <string>PCButtonCell</string>
+		<key>label</key>              	<string>Trainer Battle</string>
+	</dict>
+
+	</array>
+	<key>title</key>
+	<string>Call settings</string>
+</dict>
+</plist>
