@@ -1,7 +1,74 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>iTweakOS Repo</h1>
-<p>Cool Free Tweaks iOS 11</p>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+<title>iTweakOS Repo</title>
+<link rel="icon" href="https://onuniverse-assets.imgix.net/755E8191-9A86-43E2-A71F-2E3CAB34FFF6.jpg?q=75&dpr=1.25" type="image/gif" sizes="16x16">
+<head>
+<style>
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+</style>
+</head>
+
+<body style="background-color:#444444;">
+  <br>
+<center><h1 style="font-family:arial;font-size:20px;color:white">iTweakOS Repo</h1></center>
+<br>
+<center><p style="font-family:arial;font-size:25px;color:white">If its not free its cracked! (+_+)</p></center>
+<br>
+<center><input style="font-family:arial;background-color:#f2f2f2;border-radius:10px;display:block;width:200px;padding:10px;" type="text" value="https://itweakos.github.io/itweakosrepo/" id="myInput"><button style="font-family:arial;font-size:12px;padding:8px;margin:8px;" onclick="myFunction()">Copy Repo</button></center>
+<br>
+<center><a style="text-decoration:none;font-family:arial;font-size:15px;padding:10px;" href="https://ioshacker.com/how-to/how-to-add-a-repo-in-cydia">How To Add A Repo</a></center>
 </body>
 </html>
+
+<script>function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById("myInput");
+
+  /* Select the text field */
+  copyText.select();
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
+}</script>

@@ -13,19 +13,19 @@ Author: iTweakOS Team <ihackz9v@gmail.com>
 Name: XXXTentacionRespringLogoTheme
 
 
-Package: com.itweakos.mobileterminal
-Version: 521-karen-2
+Package: com.itweakos.filzaescaped
+Version: 3.3.3
 Architecture: iphoneos-arm
 Maintainer: Casp <ihackz9v@gmail.com>
-Filename: /MobileTerminal.deb
-Size: 248098
-MD5sum: b56e68e578381ad1b595af6eced79f80
-SHA1: f400784b7d7dc7439da8f6ec9595c5efc820873c
-SHA256: f9343117d82e6390dbe17d7938cb9e5668e5f149f8e5c710cfea6ef15cd4a0d3
+Filename: /FilzaEscaped.deb
+Size: 10626946
+MD5sum: b0f87c59c5c668ab1dea4b799abe050e
+SHA1: d0cfcad697d68c60f3cdf8b20ea3c41641160b4d
+SHA256: 7f2ac2caa69812ba9186156357bad93d4794017ce932dc0e1ae23ad81a2cc79d
 Section: Tools
-Description: Run commands with your ios device!
+Description: Brows And Change Files In iOS 11!
 Author: iTweakOS Team <ihackz9v@gmail.com>
-Name: MobileTerminal
+Name: FilzaEscaped iOS 11
 
 Package: com.itweakos.appsyncunified
 Version: 31.1
@@ -67,7 +67,7 @@ SHA256: 6cff03dec055057c44c0a0185eed8cfd5e495e47c646cfa7f9e4c356b192a4af
 Section: Themes
 Description: My Personal Favorite Theme!
 Author: iTweakOS Team <ihackz9v@gmail.com>
-Name: Mint3
+Name: Mint 3
 
 Package: com.itweakos.noctisxi
 Version: 1.1
@@ -82,3 +82,59 @@ Section: Tweaks
 Description: Semi Darkmode!
 Author: iTweakOS Team <ihackz9v@gmail.com>
 Name: NoctisXI
+
+Package: com.itweakos.pokecall
+Version: 1.1.3
+Architecture: iphoneos-arm
+Maintainer: Casp <ihackz9v@gmail.com>
+Filename: /PokeCall.deb
+Size: 10255414
+MD5sum: 7ae0e0689f45a6f34b4a735fb6ab5227
+SHA1: 97f578362e5bf9059a26d9e7e8ac27b3dbfb75a5
+SHA256: 156daced620ff83002fdc9e4cc3e4aff3b626fd40b56a33d9f7df2af7636a0ec
+Section: Tweaks
+Description: Amazing Call Revamp!
+Author: iTweakOS Team <ihackz9v@gmail.com>
+Name: PokeCall
+
+Package: com.itweakos.eclipsex
+Version: 5.0.9-2
+Architecture: iphoneos-arm
+Maintainer: Casp <ihackz9v@gmail.com>
+Filename: /EclipseX.deb
+Size: 10255414
+MD5sum: 80b4d02abf903c00f7401607ef32bb65
+SHA1: 29ba9dd3b50acbe6810e0016d77474289f2ade9d
+SHA256: a3a142cfe21e148a8328bbab52b0736680e2bce76f0dce6e314fbba30f94d8d7
+Section: Tweaks
+Description: Full Darkmode!
+Author: iTweakOS Team <ihackz9v@gmail.com>
+Name: EclipseX
+
+Package: com.itweakos.inapp
+Version: 1.0~beta1a
+Architecture: iphoneos-arm
+Maintainer: Casp <ihackz9v@gmail.com>
+Filename: /InAppPurchases.deb
+Size: 4080
+MD5sum: 2999bd923df35d23d06c95a64b8079d0
+SHA1: 9bc93a2057b47bb8d79d07bd2ae9cf21e2ea80d9
+SHA256: dfe0adf5983204f9f92308ccc28d5a7ea8abfbed3486aee3b17aab444d5d1b9c
+Section: Tweaks
+Description: Get Some Free Stuff In Games And Apps!
+Author: iTweakOS Team <ihackz9v@gmail.com>
+Name: InApp Purchases iOS 11
+
+Package: com.itweakos.xenhtml
+Version: 0.4rc4
+Architecture: iphoneos-arm
+Maintainer: Casp <ihackz9v@gmail.com>
+Filename: /XenHTML.deb
+Size: 981050
+MD5sum: b5792e8b9a0dfe47fdbfdb6660a61075
+SHA1: ea5e89b32f41526df1c6bffa9515bf3764f3704c
+SHA256: 9ed4c732037e3212a70914fdb054f7fbf4e8235350fdca4248a2f3c56d97bf2c
+Section: System
+Description: Add Widgets To Your Device!
+Author: iTweakOS Team <ihackz9v@gmail.com>
+Name: XenHTML
