@@ -138,3 +138,17 @@ Section: System
 Description: Add Widgets To Your Device!
 Author: iTweakOS Team <ihackz9v@gmail.com>
 Name: XenHTML
+
+Package: com.itweakos.otablocker
+Version: 0.2a
+Architecture: iphoneos-arm
+Maintainer: Casp <ihackz9v@gmail.com>
+Filename: /OTABlocker.deb
+Size: 5806
+MD5sum: a1c4e145c961239d98b0a614c6d05a1e
+SHA1: 606bebc9d55be6b888441ff88b82c0d64cd075f8
+SHA256: 474a64f8d551d9dcaab5ce29a7b67a7a1762404bdd3b19c0f7ba4f84711f489a
+Section: System
+Description: Block iOS updates!
+Author: iTweakOS Team <ihackz9v@gmail.com>
+Name: OTABlocker
