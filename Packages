@@ -11,3 +11,17 @@ Section: Themes
 Description: Custom Respring Logo For iOS 11 - 11.3.1
 Author: iTweakOS Team <ihackz9v@gmail.com>
 Name: XXXTentacionRespringLogoTheme
+
+Package: com.itweakos.mobileterminal
+Version: 521-karen-2
+Architecture: iphoneos-arm
+Maintainer: Casp <ihackz9v@gmail.com>
+Filename: /MobileTerminal.deb
+Size: 248098
+MD5sum: b56e68e578381ad1b595af6eced79f80
+SHA1: f400784b7d7dc7439da8f6ec9595c5efc820873c
+SHA256: f9343117d82e6390dbe17d7938cb9e5668e5f149f8e5c710cfea6ef15cd4a0d3
+Section: Tools
+Description: Run commands with your ios device!
+Author: iTweakOS Team <ihackz9v@gmail.com>
+Name: MobileTerminal
