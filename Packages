@@ -200,11 +200,11 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Casp <ihackz9v@gmail.com>
 Filename: /iTweakOSWidget.deb
-Size: 94731
-MD5sum: 43da1c225bce5e478c72ba812c701f61
-SHA1: 2e27d6bede6c4ad62354e77f5a80fe27ff57ccc9
-SHA256: 489ba32f32b00a0800a0595c0ce38c2ef2c03358909565aac389771819421e78
+Size: 188002
+MD5sum: 620b1dfbc32d3f5b79b0463bcc36f378
+SHA1: 1d4f0fe55801f4260ec1b87ae43c81a290d9b0fc
+SHA256: 087ffe8e0a779032a627a653a92786473f80450d46ae695bf145c96ec2978ba3
 Section: Widgets
 Description: Amazing iTweakOS iWidget
 Author: iTweakOS Team <ihackz9v@gmail.com>
-Name: iTweakOS Date Widget
+Name: iTweakOS Date iWidget
