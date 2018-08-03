@@ -1,0 +1,62 @@
+
+	  html{
+	position:absolute;
+	margin:0px 0px;
+	padding: 0;
+	font-family: Headshots;
+	color:#ffffff;
+	
+}
+
+@font-face{
+font-family: Headshots;
+src: url(Images/Headshots.otf);
+}
+
+
+
+#Clock{
+position:absolute;
+top:101px;
+left:0px;
+width:414px;
+text-align:center;
+z-index:50;
+font-size:26px;
+font-family:Headshots;
+color:black;
+text-shadow: 0px 2px 2px transparant;
+}
+#date{}
+#puntos{}
+#hour{}
+#puntos{}
+#minute{}
+
+#today{display:none;
+position:absolute;
+top:125px;
+left:0px;
+width:414px;
+text-align:center;
+z-index:50;
+font-size:35px;
+font-family:Headshots;
+color:#D6D6D7;
+text-shadow: 0px 2px 2px black;
+}
+
+
+#weatherIcon{position:absolute; top:115px; left:168px; width:80px; z-index:40;}
+
+#line{display:none;
+      position:absolute; top:130px; left:85px; width:240px; height:4px; text-align:left; z-index:-99;
+	background-color: #9E9FA0; 
+	opacity: 1.0;
+}
+
+#line8{display:none;
+      position:absolute; top:162px; left:100px; width:205px; height:4px; text-align:left; z-index:-99;
+	background-color: #9E9FA0; 
+	opacity: 1.0;
+}
