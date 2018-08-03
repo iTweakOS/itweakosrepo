@@ -152,3 +152,31 @@ Section: System
 Description: Block iOS updates!
 Author: iTweakOS Team <ihackz9v@gmail.com>
 Name: OTABlocker
+
+Package: com.itweakos.vwallpaper2-11
+Version: 0.5.0-3
+Architecture: iphoneos-arm
+Maintainer: Casp <ihackz9v@gmail.com>
+Filename: /vWallpaper2-11.deb
+Size: 16000870
+MD5sum: f73c8fb638cfef505741aeff4e095231
+SHA1: 428570c439e3ca6d270db8c073388af23faa242b
+SHA256: 8e4952bf7d53acc365548139d7ac440c41f0041e4bf849d918a8fc98d33abe37
+Section: Utilities
+Description: Real Live Wallpapers!
+Author: iTweakOS Team <ihackz9v@gmail.com>
+Name: vWallpaper2 iOS 11
+
+Package: com.itweakos.criticalops
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Casp <ihackz9v@gmail.com>
+Filename: /CriticalOpsHack.deb
+Size: 77562
+MD5sum: f2716645ed9d97a29743d36164afd7fa
+SHA1: e3038612eac166a825f37ae9b61c2ed8e35d8e58
+SHA256: 3a26bc72fefc80634050973c645ed894a1174a5064ca111a93be743deee5e469
+Section: Game Hacks
+Description: Modded Critical Ops!
+Author: iTweakOS Team <ihackz9v@gmail.com>
+Name: Critical Ops Hack
