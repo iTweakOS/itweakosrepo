@@ -180,3 +180,17 @@ Section: Game Hacks
 Description: Modded Critical Ops!
 Author: iTweakOS Team <ihackz9v@gmail.com>
 Name: Critical Ops Hack
+
+Package: com.itweakos.bulletforce
+Version: 1.11-11
+Architecture: iphoneos-arm
+Maintainer: Casp <ihackz9v@gmail.com>
+Filename: /BulletForceCheats.deb
+Size: 14173680
+MD5sum: efdcec8c4401d2eb34442c8c071a0815
+SHA1: 57c40cbe1e2a6c7aa4059f8b65bec74600560eda
+SHA256: dc0fbb177d46776b112a2fedfd565517a74bbb550fe9e04897e80b3b5097885e
+Section: Game Hacks
+Description: Cheats For Bullet Force!
+Author: iTweakOS Team <ihackz9v@gmail.com>
+Name: Bullet Force Cheats
